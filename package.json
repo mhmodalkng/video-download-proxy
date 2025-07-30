@@ -4,8 +4,8 @@
   "description": "Proxy server for downloading videos",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "vercel-build"
+    "start": "node server.js",  // الأمر الذي يقوم بتشغيل التطبيق
+    "build": "echo 'No build necessary for Node.js app.'"  // أمر بناء فارغ لأنه لا يوجد بناء مطلوب
   },
   "dependencies": {
     "express": "^4.17.1",
