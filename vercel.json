@@ -5,11 +5,5 @@
       "src": "server.js",
       "use": "@vercel/node"
     }
-  ],
-  "routes": [
-    {
-      "src": "/download",
-      "dest": "/server.js"
-    }
   ]
 }
